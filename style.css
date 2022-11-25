@@ -30,7 +30,6 @@ wrapper h1 {
 }
 
 .yellow--container, .cyan--container, .green--container {
-    min-height: 30em;
     width: 17rem;
     padding: 2.2rem;
 }
@@ -74,6 +73,7 @@ button {
     align-items: center;
     mix-blend-mode: screen;
     border-radius: 6rem;
+    font-weight: 700;
 }
 
 button:hover {
@@ -82,7 +82,7 @@ button:hover {
     padding: 0.8rem;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
     wrapper {
         display: flex;
         flex-direction: column;
