@@ -82,7 +82,7 @@ button:hover {
     padding: 0.8rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
     wrapper {
         display: flex;
         flex-direction: column;
